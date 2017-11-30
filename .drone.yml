@@ -4,6 +4,6 @@ clone:
 
 pipeline:
   hello:
-    image: alpine
+    image: dotnetdr/sysbench
     commands:
-      - echo "hello world!!?!"
+      - sysbench --test=cpu --cpu-max-prime=20000
