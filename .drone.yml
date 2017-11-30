@@ -6,4 +6,4 @@ pipeline:
   hello:
     image: dotnetdr/sysbench:0.5
     commands:
-      - sysbench --test=cpu --cpu-max-prime=20000
+      - sysbench --test=cpu --cpu-max-prime=20000 run
