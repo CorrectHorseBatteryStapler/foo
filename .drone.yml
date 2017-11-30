@@ -1,0 +1,9 @@
+clone:
+  default:
+    image: maciekdna/drone-git
+
+pipeline:
+  hello:
+    image: alpine
+    commands:
+      - echo "hello world!"
