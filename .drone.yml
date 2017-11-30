@@ -4,6 +4,6 @@ clone:
 
 pipeline:
   hello:
-    image: dotnetdr/sysbench
+    image: dotnetdr/sysbench:0.5
     commands:
       - sysbench --test=cpu --cpu-max-prime=20000
