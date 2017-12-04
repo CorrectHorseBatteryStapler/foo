@@ -7,4 +7,4 @@ pipeline:
     image: dotnetdr/sysbench:0.5
     commands:
       - sysbench --test=cpu --cpu-max-prime=60000 --num-threads=2 run
-      - echo hey!!!
+      - echo hey!!!!
